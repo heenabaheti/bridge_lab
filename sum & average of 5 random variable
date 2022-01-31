@@ -1,0 +1,9 @@
+     sum=0
+      for i in 1 2 3 4 5
+           do
+               a=$((RANDOM%100))
+              echo $i "Number is = " $a
+               sum=$((sum + a))
+          done 
+    echo "Sum of above five random numbers is:"  $sum
+    echo "Average of above random is:" $((sum/5))
