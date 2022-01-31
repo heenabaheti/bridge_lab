@@ -1,0 +1,6 @@
+   Dice1_No=$((RANDOM%6+1))
+       echo "Dice ONE Digit" $Dice1_No 
+       Dice2_No=$((RANDOM%6+1))
+       echo "Dice TWO Digit" $Dice2_No
+       add=$((Dice1_No + Dice2_No))
+       echo "addition of this:" $add
